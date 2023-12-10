@@ -27,7 +27,7 @@ public class ServerPlayerEntityMixin {
       at = {@At("HEAD")}
    )
    private void scout$attemptFixGraveMods(DamageSource source, CallbackInfo callbackInfo) {
-      ServerPlayerEntity player = (ServerPlayerEntity) this;
+      ServerPlayerEntity player = (ServerPlayerEntity)(Object) this;
       ScoutPlayerScreenHandler handler = (ScoutPlayerScreenHandler)player.playerScreenHandler;
       if (!player.world.getGameRules().getBoolean(GameRules.KEEP_INVENTORY)) {
          ItemStack backStack = ScoutUtil.findBagItem(player, BaseBagItem.BagType.SATCHEL, false);

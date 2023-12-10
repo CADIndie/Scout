@@ -18,7 +18,7 @@ public class Scout implements ModInitializer {
 
    public static final Item TANNED_LEATHER;
    public static final Item SATCHEL_STRAP;
-   public static final BaseBagItem SATCHEL;
+   public static BaseBagItem SATCHEL;
    public static final BaseBagItem UPGRADED_SATCHEL;
    public static final BaseBagItem POUCH;
    public static final BaseBagItem UPGRADED_POUCH;

@@ -35,7 +35,7 @@ public abstract class InventoryScreenMixin extends AbstractInventoryScreen<Playe
          if (!backStack.isEmpty()) {
             BaseBagItem bagItem = (BaseBagItem)backStack.getItem();
             int slots = bagItem.getSlotCount();
-            RenderSystem.setShader(GameRenderer::getPositionTexProgram);
+            RenderSystem.setShader(GameRenderer::getPositionTexShader);
             RenderSystem.setShaderTexture(0, ScoutUtil.SLOT_TEXTURE);
             RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
             int x = this.x;

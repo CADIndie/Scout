@@ -15,7 +15,7 @@ public class ItemStackMixin {
       cancellable = true
    )
    private void scout$grossTrinketsEquipFix(ItemStack newStack, CallbackInfoReturnable<Boolean> callbackInfo) {
-      ItemStack self = (ItemStack);
+      ItemStack self = (ItemStack)(Object) this;
       if (self.getItem() instanceof BaseBagItem && newStack.getItem() instanceof BaseBagItem) {
          callbackInfo.setReturnValue(false);
       }
