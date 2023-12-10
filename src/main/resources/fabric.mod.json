@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "scout",
+  "version": "1.1.2",
+  "name": "Scout",
+  "description": "A mod focused on \"physically\" extending the inventory (adding slots) through wearing various types of bags.",
+  "authors": [
+    "Cynosphere"
+  ],
+  "contact": {
+    "sources": "https://github.com/Cynosphere-mc/Scout"
+  },
+  "license": "MIT",
+  "icon": "assets/scout/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "pm.c7.scout.Scout"
+    ],
+    "client": [
+      "pm.c7.scout.ScoutClient"
+    ],
+    "emi": [
+      "pm.c7.scout.compat.ScoutEmiPlugin"
+    ],
+    "rei_client": [
+      "pm.c7.scout.compat.ScoutREIClientPlugin"
+    ]
+  },
+  "mixins": [
+    "scout.mixins.json"
+  ],
+  "depends": {
+    "fabric": "\u003e\u003d0.72.0",
+    "minecraft": "~1.19.2",
+    "java": "\u003e\u003d17",
+    "trinkets": "\u003e\u003d3.4.1"
+  },
+  "suggests": {
+    "emi": "\u003e\u003d0.5.3"
+  },
+  "breaks": {
+    "infinitory": "*",
+    "biginv": "*",
+    "extrainv": "*"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/trinkets-3.4.1.jar"
+    }
+  ]
+}

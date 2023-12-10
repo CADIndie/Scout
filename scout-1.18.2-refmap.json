@@ -1,0 +1,48 @@
+{
+  "mappings": {
+    "pm/c7/scout/mixin/ItemStackMixin": {
+      "isItemEqual": "Lnet/minecraft/class_1799;method_7929(Lnet/minecraft/class_1799;)Z"
+    },
+    "pm/c7/scout/mixin/ServerPlayerEntityMixin": {
+      "onDeath": "Lnet/minecraft/class_3222;method_6078(Lnet/minecraft/class_1282;)V"
+    },
+    "pm/c7/scout/mixin/InventoryScreenMixin": {
+      "drawBackground": "Lnet/minecraft/class_490;method_2389(Lnet/minecraft/class_4587;FII)V",
+      "isClickOutsideBounds": "Lnet/minecraft/class_490;method_2381(DDIII)Z"
+    },
+    "pm/c7/scout/mixin/RecipeBookWidgetMixin": {
+      "findLeftEdge": "Lnet/minecraft/class_507;method_2595(II)I"
+    },
+    "pm/c7/scout/mixin/ScreenHandlerMixin": {
+      "copySharedSlots": "Lnet/minecraft/class_1703;method_34247(Lnet/minecraft/class_1703;)V"
+    },
+    "pm/c7/scout/mixin/HandledScreenAccessor": {
+      "x": "field_2776:I",
+      "y": "field_2800:I"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "pm/c7/scout/mixin/ItemStackMixin": {
+        "isItemEqual": "Lnet/minecraft/class_1799;method_7929(Lnet/minecraft/class_1799;)Z"
+      },
+      "pm/c7/scout/mixin/ServerPlayerEntityMixin": {
+        "onDeath": "Lnet/minecraft/class_3222;method_6078(Lnet/minecraft/class_1282;)V"
+      },
+      "pm/c7/scout/mixin/InventoryScreenMixin": {
+        "drawBackground": "Lnet/minecraft/class_490;method_2389(Lnet/minecraft/class_4587;FII)V",
+        "isClickOutsideBounds": "Lnet/minecraft/class_490;method_2381(DDIII)Z"
+      },
+      "pm/c7/scout/mixin/RecipeBookWidgetMixin": {
+        "findLeftEdge": "Lnet/minecraft/class_507;method_2595(II)I"
+      },
+      "pm/c7/scout/mixin/ScreenHandlerMixin": {
+        "copySharedSlots": "Lnet/minecraft/class_1703;method_34247(Lnet/minecraft/class_1703;)V"
+      },
+      "pm/c7/scout/mixin/HandledScreenAccessor": {
+        "x": "field_2776:I",
+        "y": "field_2800:I"
+      }
+    }
+  }
+}
